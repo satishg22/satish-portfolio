@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+header {
+    background: #1a1a1a;
+    color: #fff;
+    padding: 1em 0;
+    text-align: left;
+}
+.fa:hover {
+    opacity: 0.9;
+}
+.resume {
+    color: #e6e6e6;
+    
+
+}
+.fa {
+    padding: 10px;
+    font-size: 40px;
+    width: 15px;
+    text-decoration:beige;
+    margin-left: 10px;
+}
+
+
+.fa-linkedin-square {
+    background: #007bb5;
+    color: white;
+}
+.fa-github {
+    background: #020b10;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-family: Georgia, serif;
+  font-size: 60px;
+  color: white;
+  margin-top: 1px;
+
+}
+header h2{
+    font-family: 'Abril Fatface', serif;
+    font-size: 46px;  
+    font-style: oblique;
+    margin-bottom: 1px;
+    margin-top: 1px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+nav li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #03291b;
+  }
+
+
+
+section {
+    padding: 2em;
+    border-bottom: 1px solid #333;
+}
+
+
+h2 {
+    color: #e6e6e6;
+}
+
+.project, .skill, .certifications, .contact {
+    margin-bottom: 1em;
+}
+
+.progress {
+    background: #2a2a2a;
+    border: 1px solid #444;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 0.5em;
+}
+
+.progress-bar {
+    background: #4caf50;
+    color: #fff;
+    text-align: center;
+    padding: 0.2em 0;
+    border-radius: 5px;
+}
+
+
+
+form label {
+    display: block;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #4caf50;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #45a049;
+}
+
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+  
+}
